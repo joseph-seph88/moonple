@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Moon Ple
 
-## Getting Started
+달이 기억하는 당신의 하루
 
-First, run the development server:
+보름달에 소원을 적듯, 당신의 하루를 달에 새기세요.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 주요 기능
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 캘린더 일정 관리
+- 일정 검색 및 완료 체크
+- 일정 공유 기능
+- 월간/주간 통계
+- 다국어 지원 (한국어/영어)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Moon Ple
 
-## Learn More
+The moon that remembers your day
 
-To learn more about Next.js, take a look at the following resources:
+Like making a wish on the full moon, write down your day.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Calendar schedule management
+- Event search and completion check
+- Schedule sharing
+- Monthly/Weekly statistics
+- Bilingual support (Korean/English)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Developer:** Joseph88
+**Contact:** pathetic.sim@gmail.com

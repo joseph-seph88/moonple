@@ -5,6 +5,8 @@ interface HeroSectionProps {
   t: Content;
 }
 
+const basePath = process.env.NODE_ENV === 'production' ? '/moonple' : '';
+
 export default function HeroSection({ t }: HeroSectionProps) {
   return (
     <section className="border-b border-white/10">
@@ -12,7 +14,7 @@ export default function HeroSection({ t }: HeroSectionProps) {
         <div className="relative inline-block mb-8">
           <div className="relative">
             <Image
-              src="/assets/logo_moon.png"
+              src={`${basePath}/assets/logo_moon.png`}
               alt="Moon Ple Logo"
               width={220}
               height={220}

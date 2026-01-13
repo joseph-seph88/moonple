@@ -1,3 +1,5 @@
+const basePath = process.env.NODE_ENV === 'production' ? '/moonple' : '';
+
 export const content = {
   ko: {
     hero: {
@@ -13,27 +15,27 @@ export const content = {
         {
           title: '캘린더 일정 관리',
           description: '간편하게 일정을 등록하고 관리하세요.',
-          image: '/assets/Screenshot_home-left.png',
+          image: `${basePath}/assets/Screenshot_home-left.png`,
         },
         {
           title: '일정 검색',
           description: '과거 일정이나 중요한 약속을 키워드로 즉시 찾아보세요.',
-          image: '/assets/Screenshot_search-right.png',
+          image: `${basePath}/assets/Screenshot_search-right.png`,
         },
         {
           title: '일정 완료 체크',
           description: '오늘 할 일을 하나씩 체크하며 성취감을 느껴보세요.',
-          image: '/assets/Screenshot_daily_check-left.png',
+          image: `${basePath}/assets/Screenshot_daily_check-left.png`,
         },
         {
           title: '일정 공유',
           description: '친구, 가족과 일정을 공유하고 함께 관리하세요.',
-          image: '/assets/Screenshot_share-left.png',
+          image: `${basePath}/assets/Screenshot_share-left.png`,
         },
         {
           title: '월간/주간 통계',
           description: '월별, 주별 일정 달성률과 현황을 한눈에 확인하세요.',
-          images: ['/assets/Screenshot_my_month-right.png', '/assets/Screenshot_my_week-right.png'],
+          images: [`${basePath}/assets/Screenshot_my_month-right.png`, `${basePath}/assets/Screenshot_my_week-right.png`],
         },
       ],
     },
@@ -73,27 +75,27 @@ export const content = {
         {
           title: 'Calendar Schedule Management',
           description: 'Easily register and manage your schedule.',
-          image: '/assets/Screenshot_home-left.png',
+          image: `${basePath}/assets/Screenshot_home-left.png`,
         },
         {
           title: 'Event Search',
           description: 'Instantly find past events or important appointments by keyword.',
-          image: '/assets/Screenshot_search-right.png',
+          image: `${basePath}/assets/Screenshot_search-right.png`,
         },
         {
           title: 'Complete Task Checklist',
           description: 'Check off your daily tasks one by one and feel accomplished.',
-          image: '/assets/Screenshot_daily_check-left.png',
+          image: `${basePath}/assets/Screenshot_daily_check-left.png`,
         },
         {
           title: 'Share Events',
           description: 'Share your schedule with friends and family to manage together.',
-          image: '/assets/Screenshot_share-left.png',
+          image: `${basePath}/assets/Screenshot_share-left.png`,
         },
         {
           title: 'Monthly/Weekly Statistics',
           description: 'View your monthly and weekly schedule completion rate at a glance.',
-          images: ['/assets/Screenshot_my_month-right.png', '/assets/Screenshot_my_week-right.png'],
+          images: [`${basePath}/assets/Screenshot_my_month-right.png`, `${basePath}/assets/Screenshot_my_week-right.png`],
         },
       ],
     },

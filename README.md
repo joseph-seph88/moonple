@@ -12,7 +12,7 @@
 - 월간/주간 통계
 - 다국어 지원 (한국어/영어)
 
----
+-----
 
 # Moon Ple
 
@@ -28,7 +28,7 @@ Like making a wish on the full moon, write down your day.
 - Monthly/Weekly statistics
 - Bilingual support (Korean/English)
 
----
+-----
 
 **Developer:** Joseph88
 **Contact:** pathetic.sim@gmail.com

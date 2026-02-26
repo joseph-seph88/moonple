@@ -53,7 +53,9 @@ export const content = {
     download: {
       title: '매일 밤 달과 함께',
       subtitle: 'App Store와 Google Play에서 만나보세요',
-      comingSoon: '곧 출시 예정',
+      appStoreComingSoon: 'App Store 출시 예정',
+      googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.joseph88.moonple&hl=ko',
+      comingSoon: '출시 예정',
     },
     footer: {
       developer: '개발자',
@@ -113,6 +115,8 @@ export const content = {
     download: {
       title: 'Every Night with the Moon',
       subtitle: 'Available on App Store and Google Play',
+      appStoreComingSoon: 'App Store Coming Soon',
+      googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.joseph88.moonple&hl=ko',
       comingSoon: 'Coming Soon',
     },
     footer: {

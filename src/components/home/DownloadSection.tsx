@@ -17,9 +17,14 @@ export default function DownloadSection({ t }: DownloadSectionProps) {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <DownloadButton platform="App Store" disabled />
-          <DownloadButton platform="Google Play" disabled />
+          <DownloadButton
+            platform="Google Play"
+            url={t.download.googlePlayUrl}
+          />
         </div>
-        <p className="text-sm text-gray-500 mt-4">{t.download.comingSoon}</p>
+        {t.download.appStoreComingSoon && (
+          <p className="text-sm text-gray-500 mt-4">{t.download.appStoreComingSoon}</p>
+        )}
       </div>
     </section>
   );

@@ -45,14 +45,16 @@ export default function TopNavigation({ lang, setLang, t }: TopNavigationProps) 
         >
           App Store
         </button>
-        <button
-          disabled
-          className="text-xs text-gray-500 px-3 py-2 bg-white/5 backdrop-blur-md rounded-md cursor-not-allowed text-center border border-white/10"
+        <a
+          href={t.download.googlePlayUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-white px-3 py-2 bg-white/10 backdrop-blur-md rounded-md hover:bg-white/20 transition-colors text-center border border-white/20"
         >
           Google Play
-        </button>
+        </a>
       </div>
-      <p className="text-[10px] text-gray-600 text-center w-full">{t.download.comingSoon}</p>
+      <p className="text-[10px] text-gray-600 text-center w-full">{t.download.appStoreComingSoon}</p>
     </div>
   );
 }

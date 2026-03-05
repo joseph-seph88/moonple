@@ -15,19 +15,14 @@ export default function FeaturesSection({ t }: FeaturesSectionProps) {
         <p className="text-center text-gray-400 mb-12">
           {t.features.subtitle}
         </p>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {t.features.cards.map((card, index) => (
-            <div
+            <FeatureCard
               key={index}
-              className={card.images && card.images.length > 1 ? 'md:col-span-2' : ''}
-            >
-              <FeatureCard
-                title={card.title}
-                description={card.description}
-                image={card.image}
-                images={card.images}
-              />
-            </div>
+              title={card.title}
+              description={card.description}
+              image={card.image}
+            />
           ))}
         </div>
       </div>

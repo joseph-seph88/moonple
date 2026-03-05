@@ -9,7 +9,7 @@ interface TopNavigationProps {
 
 export default function TopNavigation({ lang, setLang, t }: TopNavigationProps) {
   return (
-    <div className="fixed top-6 right-8 z-50 flex flex-col gap-3 items-end max-w-[180px]">
+    <div className="fixed top-8 right-12 z-50 flex flex-col gap-4 items-end max-w-[180px]">
       <div className="flex gap-2 bg-white/10 backdrop-blur-md rounded-lg p-1 w-full">
         <button
           onClick={() => setLang('ko')}
